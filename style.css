@@ -7,7 +7,7 @@
 
 /* header */
 .header {
-    background-color: brown;
+    background-color: #5cb85c;
     color: cornsilk;
     text-align: center;
     padding: 5rem;
@@ -23,3 +23,12 @@
     font-size: 1.5 rem;
 }
 
+.main {
+    background-color:#C8F7C5 ;
+    height: 100vh;
+}
+/* input section */
+.inputs {
+    padding: 8rem;
+    text-align: center;
+}
