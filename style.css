@@ -54,3 +54,13 @@
     border: none;
     border-radius: 2px;
 }
+
+/* display */
+.display {
+    text-align: center;
+}
+.wrapper {
+    margin: 0 9rem;
+    background-color: #009688;
+}
+
