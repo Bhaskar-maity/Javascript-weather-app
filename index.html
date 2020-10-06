@@ -6,33 +6,38 @@
     <title>Weather app</title>
 succed    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Header part -->
-    <section class="header">
-        <h1> Simple Weather application</h1>
-        <p>Coded by ❤ Bhaskar Maity</p>
-    </section>
+    <div class="container">
+        <div class="row">
+            <!-- Header part -->
+            <section class="header col-md-4 offset-md-1">
+                <h1> Simple Weather application</h1>
+                <p>Coded by ❤ Bhaskar Maity</p>
+            </section>
 
-    <section class="main">
-    <!-- input section -->
-    <section class="inputs">
-        <input type="text" placeholder="Enter any city" id="cityinput">
-        <input type="submit" value="Submit" id="add">
-     <button placeholder="submit" id="add"></button>
-    </section>
+            <section class="main col-md-6 ">
+            <!-- input section -->
+            <section class="inputs">
+                <input type="text" placeholder="Enter any city" id="cityinput">
+                <input type="submit" value="Submit" id="add">
+            <button placeholder="submit" id="add"></button>
+            </section>
 
-    <!-- Display section -->
-    <section class="display">
-        <div class="wrapper">
-            <h2 id="cityoutput"></h2>
-            <p id="description"></p>
-            <p id="temp"></p>
-            <!-- <p id="wind"></p> -->
-            <p id="humdi"></p>
+            <!-- Display section -->
+            <section class="display">
+                <div class="wrapper">
+                    <h2 id="cityoutput"></h2>
+                    <p id="description"></p>
+                    <p id="temp"></p>
+                    <!-- <p id="wind"></p> -->
+                    <p id="humdi"></p>
+                </div>
+            </section>
+            </section>
         </div>
-    </section>
-    </section>
+    </div>
 
     <script type="text/javascript" src="./main.js"></script>
 </body>
