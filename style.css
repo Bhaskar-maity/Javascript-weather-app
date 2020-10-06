@@ -5,7 +5,10 @@
 }
 
 /* background */
-
+.container-fluid{
+    margin: 0%;
+    background-image: url(./img/bg7.jpg);
+}
 /* header */
 .header {
     background-color: #18FFFF;
