@@ -24,7 +24,7 @@ function convertion(val){
             var wndspd = data['wind']['speed']
 
             city.innerHTML=`City: ${nameval}`
-            temp.innerHTML = `Temparature: ${ convertion(tempature)} C`
+            temp.innerHTML = `Temperature: ${ convertion(tempature)} C`
             description.innerHTML = `Conditions: ${descrip}`
             wind.innerHTML = `Wind Speed: ${wndspd} km/h`
 
