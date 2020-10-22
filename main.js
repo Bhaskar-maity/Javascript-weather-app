@@ -20,10 +20,10 @@ apik = '3045dd712ffe6e702e3245525ac7fa38'
             var humidity = data['main']['humidity']
             // var descValue = data['weather'][0]['description']
 
-            city.innerHTML=nameval
-            temp.innerHTML = 'Temparature - '+ tempature
-            description.innerHTML = descrip
-            humid.innerHTML = 'Humidity - ' + humidity
+            city.innerHTML=`City: ${nameval}`
+            temp.innerHTML = `Temparature: ${ tempature}`
+            description.innerHTML = `Conditions: ${descrip}`
+            humid.innerHTML = `Humidity: ${ humidity}`
 
 
         })
