@@ -40,7 +40,8 @@
 }
 
 .main {
-    background-image: linear-gradient(#00E5FF, #00BCD4);
+    /* background-image: linear-gradient(#424242, #757575); */
+    background-color: #212121;
     
     
 }
