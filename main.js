@@ -6,8 +6,10 @@ var descrip = document.querySelector('#description')
 var temp = document.querySelector('#temp')
 var wind = document.querySelector('#wind')
 
+//hide api
+require('dotenv').config()
 
-apik = '3045dd712ffe6e702e3245525ac7fa38'
+apik = process.env.API_KEY;
 //kelvin to celcious
 function convertion(val){
     return (val - 273).toFixed(2)
