@@ -62,7 +62,7 @@
     font-size: 1.5rem;
     border: none;
     background-color: transparent;
-    border-bottom: solid 1px #03fcc2;
+    border-bottom: solid 1px #16a864;
     border-radius: 2px;
     margin-right:4px ;
     
@@ -70,8 +70,9 @@
 .inputs input[type="submit"] {
     height: 3.5rem;
     width: 6.5rem;
-    background: #ffffff;
+    background: #16a864;
     font-weight: bold;
+    color: ghostwhite;
     font-size: 1.5rem;
     border: none;
     border-radius: 2px;
@@ -85,7 +86,7 @@
 .wrapper {
     margin: 0 9rem;
     width: 50%;
-    background-color: #0288D1;
+    background-color: #212121;
     height: 40vh;
     margin: 50px auto;
     border-radius: 2px;
