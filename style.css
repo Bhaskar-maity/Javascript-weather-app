@@ -32,11 +32,14 @@
 .header h1 {
     font-weight: 500;
     font-size: 34px;
-    font-family: 'Indie Flower', cursive;}
+    font-family: 'Indie Flower', cursive;
+    color: #e4eff7;
+}
 .header p {
     margin-top: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.5 rem;
+    color: #e4eff7;
 }
 
 .main {

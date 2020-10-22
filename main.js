@@ -8,7 +8,7 @@ var wind = document.querySelector('#wind')
 
 
 apik = '3045dd712ffe6e702e3245525ac7fa38'
-
+//kelvin to celcious
 function convertion(val){
     return (val - 273).toFixed(2)
 }
