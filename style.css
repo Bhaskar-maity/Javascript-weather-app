@@ -63,6 +63,7 @@
     border: none;
     background-color: transparent;
     border-bottom: solid 1px #16a864;
+    color: #16a864;
     border-radius: 2px;
     margin-right:4px ;
     
@@ -81,7 +82,7 @@
 /* display */
 .display {
     text-align: center;
-    color: cornsilk;
+    color: #16a864;
 }
 .wrapper {
     margin: 0 9rem;
