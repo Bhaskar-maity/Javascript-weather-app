@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* background */
+/* --------------------background */
 .container-fluid{
     /* margin: 0%; */
     background-image: url(./img/bg7.jpg);
@@ -19,7 +19,7 @@
     padding-bottom: 5rem;
     
 }
-/* header */
+/* -----------------------------header */
 .header {
     background-image: url(./img/header.jpg);
     background-size: cover;
@@ -42,13 +42,18 @@
     color: #e4eff7;
 }
 
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: #d0e5f5;
+}
 .main {
     /* background-image: linear-gradient(#424242, #757575); */
     background-color: #212121;
     
     
 }
-/* input section */
+
+/* --------------------------------input section */
 .inputs {
     padding: 6rem 0 2rem 0;
     text-align: center;
@@ -82,7 +87,7 @@
     border-radius: 2px;
 }
 
-/* display */
+/* -------------------------------display */
 .display {
     text-align: center;
     color: #16a864;
