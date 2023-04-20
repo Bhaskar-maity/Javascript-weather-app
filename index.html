@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather app</title>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="row offset-sm-1">
@@ -18,27 +21,28 @@
             </section>
 
             <section class="main col-md-7 col-sm-10  ">
-            <!-- input section -->
-            <section class="inputs">
-                <input type="text" placeholder="Enter any city..." id="cityinput">
-                <input type="submit" value="Submit" id="add">
-            <button placeholder="submit" id="add"></button>
-            </section>
+                <!-- input section -->
+                <section class="inputs">
+                    <input type="text" placeholder="Enter any city..." id="cityinput">
+                    <input type="submit" value="Submit" id="add">
+                    <button placeholder="submit" id="add"></button>
+                </section>
 
-            <!-- Display section -->
-            <section class="display">
-                <div class="wrapper">
-                    <h2 id="cityoutput"></h2>
-                    <p id="description"></p>
-                    <p id="temp"></p>
-                    <p id="wind"></p>
-
-                </div>
-            </section>
+                <!-- Display section -->
+                <section class="display">
+                    <h2 id="citynotfound"></h2>
+                    <div class="wrapper">
+                        <h2 id="cityoutput"></h2>
+                        <p id="description"></p>
+                        <p id="temp"></p>
+                        <p id="wind"></p>
+                    </div>
+                </section>
             </section>
         </div>
     </div>
 
     <script type="text/javascript" src="./main.js"></script>
 </body>
+
 </html>

@@ -5,20 +5,18 @@
 }
 
 /* --------------------background */
-.container-fluid{
-    /* margin: 0%; */
+.container-fluid {
     background-image: url(./img/bg7.jpg);
     background-size: cover;
-    /* margin-bottom: 0px; */
-    height:auto;
-/* max-height:200vh; */
+    height: 100vh;
 }
 
-.row{
+.row {
     padding-top: 5.5rem;
     padding-bottom: 5rem;
-    
+
 }
+
 /* -----------------------------header */
 .header {
     background-image: url(./img/header.jpg);
@@ -35,6 +33,7 @@
     font-family: 'Indie Flower', cursive;
     color: #e4eff7;
 }
+
 .header p {
     margin-top: 1rem;
     font-weight: 600;
@@ -42,15 +41,19 @@
     color: #e4eff7;
 }
 
-a:hover, a:visited, a:link, a:active{
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
     color: #d0e5f5;
 }
+
 .main {
     /* background-image: linear-gradient(#424242, #757575); */
     background-color: #212121;
-    
-    
+
+
 }
 
 /* --------------------------------input section */
@@ -73,9 +76,10 @@ a:hover, a:visited, a:link, a:active{
     border-bottom: solid 1px #16a864;
     color: #16a864;
     border-radius: 2px;
-    margin-right:4px ;
-    
+    margin-right: 4px;
+
 }
+
 .inputs input[type="submit"] {
     height: 3.5rem;
     width: 6.5rem;
@@ -91,22 +95,27 @@ a:hover, a:visited, a:link, a:active{
 .display {
     text-align: center;
     color: #16a864;
+    height: 40vh;
 }
+
 .wrapper {
     margin: 0 9rem;
     width: 50%;
     background-color: #212121;
-    height: 40vh;
-    margin: 50px auto;
     border-radius: 2px;
 }
 
-.wrapper h2{
+#citynotfound {
+    display: none;
+}
+
+.wrapper h2 {
     padding: 5px 0;
     text-align: center;
-  }
-  .wrapper p{
+}
+
+.wrapper p {
     text-align: center;
-    margin:10px 0;
-    font-size:20px;
-  }
+    margin: 10px 0;
+    font-size: 20px;
+}
